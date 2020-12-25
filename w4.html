@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+    <div class="block_style" style="display: flex;">
+
+            <div class="column" style="height:300px; flex-basis: 220px;align-items: center; ";>                
+                    <div class="avatar_block">
+                        <img class="avatar_image" src="https://sun9-32.userapi.com/impg/FNz0_XFmxd7-jgyOSZmS9NRvy-VVUTNJNvOq1w/YwXbdGF3hAM.jpg?size=1280x1280&quality=96&sign=b9a8d52c84d48d6db4f11b0912866c7f&type=album" alt="">
+                    </div>
+                <div style="font-size: 2em;">Гогина</div>
+                <div style="font-size: 1em;">Наташа</div>
+            </div>
+
+            <div class="column" style="height:300px; flex-basis: 330px;";>
+              <div style="font-style: italic;">
+                Забавное существо, иногда громко
+                кричит и дерется, в наличии есть 
+                волшебная палочка, с которой в 
+                ближайший месяц она вступит в 
+                неравную схватку с Зинаидой Волдемортовной. Финал 
+                предсказуем...
+              </div>
+
+              <div style="display: flex; ">
+
+                <div style="text-align: right;" >
+                    <div>Сила:</div>
+                    <div>Ловкость:</div>
+                    <div>Интелект:</div>
+                    <div>Харизма:</div>
+                </div>
+
+                <div style="margin-left: 0.3em; text-align: left;">
+                    <div>8</div>
+                    <div>9</div>
+                    <div><i class="fas fa-cog fa-spin"></i></div>
+                    <div>10</div>
+                </div>
+
+              </div>
+                
+            </div>
+
+            
+    </div>
+    
+
+    <style> 
+        .avatar_block
+        {
+            width: 200px; 
+            height: 200px;
+            border: 1px solid silver;
+            margin: 8px;
+            box-shadow: 0 0 16px silver;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .avatar_image
+        {
+            height: 100%;
+        }
+
+        .block_style
+        {
+            border: 1px solid silver;
+            margin: 0.8em;
+            box-shadow: 0 0 16px silver;
+            width: 600px;
+        }
+
+        .column
+    {
+        justify-content: space-evenly;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-basis: 200px;
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+    </style>
+</body>
+</html>
